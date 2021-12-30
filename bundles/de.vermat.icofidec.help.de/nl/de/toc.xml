@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Icon File Decorator Plugin Benutzerhandbuch">
+<?NLS TYPE="org.eclipse.help.toc"?>
+   <topic href="html/overview.html" label="Übersicht">
+   </topic>
+   <topic href="html/preferences.html" label="Einstellungen">
+   </topic>
+   <topic href="html/more.html" label="Weitere Informationen">
+   </topic>
+</toc>

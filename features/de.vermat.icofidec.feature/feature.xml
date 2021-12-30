@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.vermat.icofidec.feature"
+      label="%feature.label"
+      version="1.0.0.qualifier"
+      provider-name="Matthias Glasel"
+      plugin="de.vermat.icofidec">
+
+   <description>
+      %feature.description
+   </description>
+
+   <copyright>
+      %feature.copyright
+   </copyright>
+
+   <license url="LICENSE">
+      %feature.license
+   </license>
+
+   <plugin
+         id="de.vermat.icofidec.nl1"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="de.vermat.icofidec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.vermat.icofidec.config"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.vermat.icofidec.help"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

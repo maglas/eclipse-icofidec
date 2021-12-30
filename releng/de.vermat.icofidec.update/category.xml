@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.vermat.icofidec.feature_1.0.0.qualifier.jar" id="de.vermat.icofidec.feature" version="1.0.0.qualifier">
+      <category name="de.vermat.icofidec.update"/>
+   </feature>
+   <feature url="features/de.vermat.icofidec.nls.de.feature_1.0.0.qualifier.jar" id="de.vermat.icofidec.nls.de.feature" version="1.0.0.qualifier">
+      <category name="de.vermat.icofidec.update"/>
+   </feature>
+   <category-def name="de.vermat.icofidec.update" label="%category.icofidec.label">
+      <description>
+         %category.icofidec.description
+      </description>
+   </category-def>
+</site>

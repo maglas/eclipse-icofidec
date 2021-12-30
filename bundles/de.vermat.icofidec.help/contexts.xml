@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<contexts>
+<context id="IconFileDecoratorPreferencePage" title="About Icon File Decorator Preferences">
+    <description>This dialog allows you to set your preferences for the Icon File Decorator plugin.</description>
+	<topic label="Link &apos;Enable/disable Icon File Image Decorator&apos;" href="html/preferences.html#image_decorator_enablement"></topic>
+	<topic label="Link &apos;Enable/disable Icon File Information Decorator&apos;" href="html/preferences.html#information_decorator_enablement"></topic>
+	<topic label="Preference &apos;Supported file extensions&apos;" href="html/preferences.html#supported_file_extensions"></topic>
+	<topic label="Preference &apos;Included image folders&apos;" href="html/preferences.html#supported_image_folders"></topic>
+	<topic label="Preference &apos;Maximum icon width&apos;" href="html/preferences.html#max_icon_width"></topic>	
+	<topic label="Preference &apos;Maximum icon height&apos;" href="html/preferences.html#max_icon_height"></topic>
+ 	<topic label="Preference &apos;Scale down larger icons&apos;" href="html/preferences.html#scale_down_icons"></topic>
+ 	<topic label="Preference &apos;Scale up smaller icons&apos;" href="html/preferences.html#scale_up_icons"></topic>
+ 	<topic label="Preference &apos;Preferred icon width&apos;" href="html/preferences.html#preferred_icon_width"></topic>
+ 	<topic label="Preference &apos;Preferred icon height&apos;" href="html/preferences.html#preferred_icon_height"></topic>
+ 	<topic label="Icofidec Overview" href="html/overview.html"></topic>
+</context>
+</contexts>

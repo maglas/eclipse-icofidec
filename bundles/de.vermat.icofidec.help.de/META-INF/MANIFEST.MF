@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Icon File Decorator Help - Deutsch
+Bundle-SymbolicName: de.vermat.icofidec.help.de;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Matthias Glasel
+Fragment-Host: de.vermat.icofidec.help
+Automatic-Module-Name: de.vermat.icofidec.help.de
+Bundle-RequiredExecutionEnvironment: JavaSE-11

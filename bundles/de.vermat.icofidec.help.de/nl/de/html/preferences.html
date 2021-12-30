@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Einstellungen</title>
+</head>
+
+<body>
+<h2>Einstellungen</h2>
+Hier kann man den <a href="overview.html#image_decorator">Icon File Image Decorator</a> und den 
+<a href="overview.html#information_decorator">Icon File Information Decorator</a>
+seinen Anforderungen entsprechend konfigurieren. 
+
+<h3><a name="image_decorator_enablement">Ein-/Ausschalten Icon File Image Decorator</a></h3>
+Wenn man diesen Link anklickt, wird man auf die Einstellungsseite "<code>General &gt; Appearance &gt; Label Decorations</code>" weitergeführt, 
+wo man den <a href="overview.html#image_decorator">Icon File Image Decorator</a> aktivieren oder deaktivieren kann.
+
+<h3><a name="information_decorator_enablement">Ein-/Ausschalten Icon File Information Decorator</a></h3>
+Wenn man diesen Link anklickt, wird man auf die Einstellungsseite "<code>General &gt; Appearance &gt; Label Decorations</code>" weitergeführt, 
+wo man den <a href="overview.html#information_decorator">Icon File Information Decorator</a> aktivieren oder deaktivieren kann.
+
+<h3><a name="supported_file_extensions">Berücksichtigte Dateierweiterungen</a></h3>
+Hier kann man eine Liste von Dateiendungen angeben, die die Dekoratoren berücksichtigen sollen.
+<br>
+Die Einträge werden ohne den führenden "<cite>.</cite>" angegeben und durch Kommata getrennt.
+Es sind keine Wildcards zulässig.
+Die Namen werden nicht "case-sensitiv" behandelt.
+<br>
+Beispiel: "<code>jpg,jpeg,png</code>".
+<p>
+<strong>Achtung</strong>: Wird das Feld leer gelassen, werden alle Dateien betrachtet!
+Das kann sich negativ auf die Performance der Entwicklungsumgebung auswirken.
+
+<h3><a name="supported_image_folders">Berücksichtigte Image-Ordner</a></h3>
+Hier kann man eine Liste von Namen von Ordnern angeben, in denen Dateien berücksichtigt werden.
+Dateien aus anderen Ordnern werden ignoriert (auch wenn ihre Erweiterungen passen).
+<br>
+Die Namen werden durch Kommata getrennt.
+Es sind keine Wildcards zulässig.
+Die Namen werden nicht "case-sensitiv" behandelt.
+<br>
+Beispiel: der Eintrag "<code>icons,images</code>" führt dazu, dass Dateien in allen Ordneren berüchsichtigt
+werden, deren Pfad einen der Strings "<code>icons</code>" oder "<code>images</code>" enthält.
+<p>
+<strong>Achtung</strong>: Wird das Feld leer gelassen, werden alle Dateien betrachtet!
+Das kann sich negativ auf die Performance der Entwicklungsumgebung auswirken.
+
+<h3><a name="max_icon_width">Maximale Icon Breite</a></h3>
+Die maximale Breite in Pixeln, die ein in einer Bilddatei enthaltenes Icon haben darf,
+damit es berücksichtigt wird.
+
+<h3><a name="max_icon_height">Maximale Icon Höhe</a></h3>
+Die maximale Höhe in Pixeln, die ein in einer Bilddatei enthaltenes Icon haben darf,
+damit es berücksichtigt wird.
+
+<h3><a name="scale_down_icons">Skaliere größere Icons herunter</a></h3>
+Wenn angekreuzt, wird ein größeres Icon im Navigations-View mit der sich aus 
+"<a href="#preferred_icon_width">Bevorzugte Icon Breite</a>" und 
+"<a href=preferred_max_icon_height>Bevorzugte Icon Höhe</a>" 
+ergebenden Göße verkleinert dargestellt.
+<br>
+Andernfalls wird es in der originalen Größe dargestellt.
+
+<h3><a name="scale_up_icons">Skaliere kleinere Icons herauf</a></h3>
+Wenn angekreuzt, wird ein kleineres Icon einer Bilddatei im Navigations-View mit der sich aus 
+"<a href="#preferred_icon_width">Bevorzugte Icon Breite</a>" und 
+"<a href=#preferred_max_icon_height>Höhe</a>" ergebenden Göße vergrößert dargestellt.
+<br>
+Andernfalls wird es in der originalen Größe dargestellt.
+
+<h3><a name="preferred_icon_width">Bevorzugte Icon Breite</a></h3>
+Die Breite in Pixeln, mit der das ausgetauschte Icon einer Bilddatei im Navigations-View dargestellt werden soll.
+
+<h3><a name="preferred_max_icon_height">Bevorzugte Icon Höhe</a></h3>
+Die Höhe in Pixeln, mit der das ausgetauschte Icon einer Bilddatei im Navigations-View dargestellt werden soll.
+</body>
+</html>

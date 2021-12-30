@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Icon File Decorator NLS - Deutsch
+Bundle-SymbolicName: de.vermat.icofidec.nl1.de
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Matthias Glasel
+Fragment-Host: de.vermat.icofidec
+Automatic-Module-Name: de.vermat.icofidec.nl1.de
+Bundle-ClassPath: $nls$/
+Bundle-RequiredExecutionEnvironment: JavaSE-11

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Icon File Decorator
+Bundle-SymbolicName: de.vermat.icofidec;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Matthias Glasel
+Automatic-Module-Name: de.vermat.icofidec
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.filesystem,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime
+Bundle-Activator: de.vermat.icofidec.IconFileDecoratorPlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-11

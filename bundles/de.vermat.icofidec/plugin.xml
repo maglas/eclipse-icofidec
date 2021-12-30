@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.decorators">
+      <decorator
+            adaptable="true"
+            class="de.vermat.icofidec.decorators.IconFileImageDecorator"
+            id="de.vermat.icofidec.decorators.IconFileImageDecorator"
+            label="%icofidec.imagedecorator.label"
+            lightweight="false"
+            state="true">
+         <description>
+            %icofidec.imagedecorator.description
+         </description>
+         <enablement>
+            <objectClass
+                  name="org.eclipse.core.resources.IFile">
+            </objectClass>
+         </enablement>
+      </decorator>
+      <decorator
+            adaptable="true"
+            class="de.vermat.icofidec.decorators.IconFileInfoDecorator"
+            id="de.vermat.icofidec.decorators.IconFileInfoDecorator"
+            label="%icofidec.infodecorator.label"
+            lightweight="true"
+            state="true">
+         <description>
+            %icofidec.infodecorator.description
+         </description>
+         <enablement>
+            <objectClass
+                  name="org.eclipse.core.resources.IFile">
+            </objectClass>
+         </enablement>
+      </decorator>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.ui.preferencePages.Decorators"
+            class="de.vermat.icofidec.preferences.IconFileDecoratorPreferencePage"
+            id="de.vermat.icofidec.preferences.IconFileDecoratorPreferencePage"
+            name="%icofidec.preferencepage.name">
+      </page>
+   </extension>
+
+</plugin>

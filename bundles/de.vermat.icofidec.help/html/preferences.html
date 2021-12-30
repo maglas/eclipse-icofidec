@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Preferences</title>
+</head>
+
+<body>
+<h2>Preferences</h2>
+Here you can configure the <a href="overview.html#image_decorator">Icon File Image Decorator</a> and the 
+<a href="overview.html#information_decorator">Icon File Information Decorator</a> according to your needs. 
+
+<h3><a name="image_decorator_enablement">Enable/Disable Icon File Image Decorator</a></h3>
+Clicking this link will take you to the "<code>General &gt; Appearance &gt; Label Decorations</code>" preference page, 
+where you can enable or disable the <a href="overview.html#image_decorator">Icon File Image Decorator</a>. 
+
+<h3><a name="information_decorator_enablement">Enable/Disable Icon File Information Decorator</a></h3>
+Clicking this link will take you to the "<code>General &gt; Appearance &gt; Label Decorations</code>" preference page, 
+where you can enable or disable the <a href="overview.html#information_decorator">Icon File Information Decorator</a>. 
+
+<h3><a name="supported_file_extensions">Supported file extensions</a></h3>
+Here you can specify a list of file extensions that the decorators should accept.
+<br>
+The names are given without the leading "<cite>.</cite>" and separated by commas.
+No wildcards are allowed.
+The names are not treated "case-sensitive".
+<br>
+Example: "<code>jpg,jpeg,png</code>".
+<p>
+<strong>Note</strong>: If the field is left empty, all files will be processed!
+This can have a negative impact on the performance of the development environment.
+
+<h3><a name="supported_image_folders">Included image folders</a></h3>
+Here you can specify a list of names of folders where files will be processed.
+Files from other folders are ignored (even if their extensions match).
+<br>
+The names are separated by commas.
+No wildcards are allowed.
+The names are not treated "case-sensitive".
+<br>
+Example: the entry "<code>icons,images</code>" has the effect that files in all folders whose path 
+contains one of the strings "<code>icons</code>" or "<code>images</code>" are processed. 
+<p>
+<strong>Note</strong>: If the field is left empty, all files will be processed!
+This can have a negative impact on the performance of the development environment.
+
+<h3><a name="max_icon_width">Maximum icon width</a></h3>
+The maximum width in pixels that an icon contained in an image file may have, to be processed.
+
+<h3><a name="max_icon_height">Maximum icon height</a></h3>
+The maximum height in pixels that an icon contained in an image file may have, to be processed.
+
+<h3><a name="scale_down_icons">Scale down larger icons</a></h3>
+If checked, a larger icon will be displayed in the navigation view with the size resulting from 
+<a href="#preferred_icon_width">"Preferred Icon Width"</a> and 
+<a href=preferred_max_icon_height>"Preferred Icon Height"</a> scaled down. 
+<br>
+Otherwise it will be displayed in the original size.
+
+<h3><a name="scale_up_icons">Scale up smaller icons</a></h3>
+If checked, a smaller icon will be displayed in the navigation view with the size resulting from 
+<a href="#preferred_icon_width">"Preferred Icon Width"</a> and 
+<a href=preferred_max_icon_height>"Preferred Icon Height"</a> scaled up. 
+<br>
+Otherwise it will be displayed in the original size.
+
+<h3><a name="preferred_icon_width">Preferred icon width</a></h3>
+The width in pixels to display the replaced icon of an image file in the navigation view.
+
+<h3><a name="preferred_max_icon_height">Preferred icon height</a></h3>
+The height in pixels to display the replaced icon of an image file in the navigation view.
+</body>
+</html>

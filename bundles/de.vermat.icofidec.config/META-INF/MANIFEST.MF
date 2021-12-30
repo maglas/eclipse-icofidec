@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Icon File Decorator Configuration
+Bundle-SymbolicName: de.vermat.icofidec.config
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Matthias Glasel
+Fragment-Host: de.vermat.icofidec
+Automatic-Module-Name: de.vermat.icofidec.config
+Bundle-RequiredExecutionEnvironment: JavaSE-11
