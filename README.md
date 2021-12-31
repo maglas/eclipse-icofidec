@@ -93,3 +93,4 @@ If the build was successful, you will find the update site archive in `./releng/
   image remains unchanged), I implemented [IconFileImageDecorator](/bundles/de.vermat.icofidec/src/de/vermat/icofidec/decorators/IconFileImageDecorator.java) 
   as a "normal" `ILabelDecorator`, 
   which leads to the described effect.
+  There is even a very old [Eclipse Bugzilla Bug](https://bugs.eclipse.org/bugs/show_bug.cgi?id=385119) for this, but it has the status "CLOSED WONTFIX".
